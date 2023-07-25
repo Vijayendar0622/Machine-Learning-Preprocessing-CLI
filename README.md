@@ -2,8 +2,8 @@
 
 while running the python file make sure that the DATASET you want to preprocss is in the same folder 
 To run the " Machine Learning Preprocessing CLI "
-run CLI.py file 
+-- run CLI.py file 
 
 # COMMAND # 
-python CLI.py datasetname.csv
+(( python CLI.py datasetname.csv ))
 providing the dataset name is important only then you can preprocess the required dataset
