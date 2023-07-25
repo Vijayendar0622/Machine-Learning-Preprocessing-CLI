@@ -7,3 +7,6 @@ To run the " Machine Learning Preprocessing CLI "
 # COMMAND # 
 (( python CLI.py datasetname.csv ))
 providing the dataset name is important only then you can preprocess the required dataset
+
+# Future Scope #
+developing an GUI or web page will make it more convenient
