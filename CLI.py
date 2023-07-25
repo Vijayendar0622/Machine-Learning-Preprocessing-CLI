@@ -23,16 +23,16 @@ class Preprocessor:
     
     def __init__(self):
         self.data = DataInput().inputFunction()
-        print("\n\n" + self.bold_start + " MACHINE LEARNING PREPROCESSING TOOL " + self.bold_end + "\n\n")
+        print("\n\n" + self.bold_start + "\-- PREPROCESSING TOOL --/" + self.bold_end + "\n\n")
 
     # function to remove the target column of the DataFrame.
     def removeTargetColumn(self):
         print("Columns")
         for column in self.data.columns.values:
-            print(column, end = "  ")
+            print(column, end = " , ")
         
         while(1):
-            column = input("\nSelect target variable:(Press -1 to exit)").lower()
+            column = input("\nFrom the above columns ( Select target variable ) : \n(Press -1 to exit)").lower()
             if column == "-1":
                 exit()
             choice = input("sure?(y/n) ")
